@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className=" bg-green-800 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 ">
+    <nav className=" bg-green-800 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 h-20">
         <Link className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -95,7 +95,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="#"
+                to="/aboutus"
                 className="block text-white hover:cursor-pointer hover:opacity-75 hover:border-2 active:border-2 rounded-md px-4 py-1 hover:bg-green-100 hover:text-black active:text-black hover:font-normal my-auto"
               >
                 About Us

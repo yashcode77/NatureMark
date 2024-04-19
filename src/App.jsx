@@ -1,8 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import AboutUs from './pages/AboutUs';
 import Contact from "./components/ContactUs/Contact";
 
 function App() {
@@ -10,9 +13,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path='/' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
