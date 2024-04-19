@@ -103,7 +103,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="#"
+                to="/Contact"
                 className="block text-white hover:cursor-pointer hover:opacity-75 hover:border-2 active:border-2 rounded-md px-4 py-1 hover:bg-green-100 hover:text-black active:text-black hover:font-normal my-auto"
               >
                 Contact
