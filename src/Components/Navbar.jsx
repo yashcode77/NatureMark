@@ -17,7 +17,7 @@ function Navbar() {
             className="w-12"
             alt=""
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             NatureMark System
           </span>
         </Link>
@@ -77,11 +77,12 @@ function Navbar() {
             </li>
             <li>
               <select
-                name=""
-                id=""
-                className="w-28 mx-auto text-white block text-center hover:cursor-pointer hover:opacity-75 hover:border-2 active:border-2 rounded-md px-4 py-1   hover:font-normal my-auto bg-transparent "
+                name="Services"
+                id="Services"
+                defaultValue={`Services`}
+                className="w-32 mx-auto text-white block text-center border-transparent hover:cursor-pointer hover:bg-green-100 hover:text-black hover:opacity-75 hover:border-2 active:border-2 rounded-md px-4 py-1   hover:font-normal my-auto bg-transparent "
               >
-                <option value="Services" className="text-black" selected>
+                <option value="Services" className="text-black">
                   Services
                 </option>
                 <option className="text-black">
