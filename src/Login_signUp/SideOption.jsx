@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function SideOption() {
   return (
-    <div className="sm:w-1/2 bg-gradient-to-br from-green-900 to-green-400 text-white rounded-tr-2xl rounded-br-2xl flex flex-col justify-center gap-y-5 p-8">
+    <div className="sm:8/12 bg-gradient-to-br from-green-900 to-green-400 text-white rounded-tr-2xl rounded-br-2xl flex flex-col justify-center gap-y-5 p-8">
       <div className="text-3xl font-extrabold text-center">
         Welcome to NatureMark Systems
       </div>
