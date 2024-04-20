@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutUs';
 import Contact from "./components/ContactUs/Contact";
+import ForgotPassword from './pages/ForgotPassword';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/aboutus' element={<AboutUs />} />
-         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />  
       </Routes>
       <Footer />
     </BrowserRouter>

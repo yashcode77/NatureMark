@@ -1,6 +1,7 @@
 import { IoMdMail } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
+import whitelogo from "../Asset/white-logo.png";
 
 export default function Footer() {
   return (
@@ -58,7 +59,10 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-lg font-bold">NatureMark Systems</h2>
+            <div className="flex items-center gap-1 mb-6">
+            <img src={whitelogo} alt="" className="h-5"/>
+            <h2 className="text-lg font-bold">NatureMark Systems</h2>
+            </div>
             <ul className="font-medium">
               <div className="flex items-center mb-4 gap-1">
                 <IoMdMail />
@@ -80,8 +84,7 @@ export default function Footer() {
                 <FaPhoneAlt />
                 <li className="">
                   <a href="#">
-                    <span className="underline">+91 9833363372</span> /{" "}
-                    <span className="underline">+91 7204141484</span>
+                    <span className="underline">+91 9833363372</span>
                   </a>
                 </li>
               </div>
