@@ -58,15 +58,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+         
           <div>
             <div className="flex items-center gap-1 mb-6">
             <img src={whitelogo} alt="" className="h-5"/>
             <h2 className="text-lg font-bold">NatureMark Systems</h2>
             </div>
+
             <ul className="font-medium">
               <div className="flex items-center mb-4 gap-1">
                 <IoMdMail />
-                <li className="">
+                <li className="flex">
                   <a href="#" className="hover:underline self-center">
                     naturemarksystems@gmail.com
                   </a>
